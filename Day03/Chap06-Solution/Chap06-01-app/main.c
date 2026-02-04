@@ -23,7 +23,7 @@ int main() {
 	* do~while 문 : 무조건 한번 실행하고 반복하고자 할때
 	* do {
 	*	반복할 실행문
-	* } while (참인 조건);	// 조건 괄호 뒤 ; 필수
+	* } while (참인 조건);	// 조건 괄호 뒤 ; 필수!
 	*/
 
 	a = 1;
@@ -36,10 +36,12 @@ int main() {
 
 	a = 0;
 	do {
-		printf("do~while 실행\n");
+		printf("do~while 실행\n");	// 무조건 한번 실행
 		a--;
 	} while (a > 0);
-	printf("do~while 종료\n");
+	printf("do~while 종료\n");	// 얘도 출력됨
+
+	// 실제 실무에서는 do~while 잘 안씀
 
 	return 0;
 

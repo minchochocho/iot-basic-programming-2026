@@ -4,4 +4,9 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Chap06-01-app/Chap06-01-app.vcxproj" Id="2bc0b84b-9897-49c6-be0b-9351156713cd" />
+  <Project Path="Chap06-02-app/Chap06-02-app.vcxproj" Id="ed9a4c75-25f7-4e20-a140-a420df67e196" />
+  <Project Path="Chap06-03-app/Chap06-03-app.vcxproj" Id="4d3977a1-ee42-4d2b-a1ea-d26bb77da5c1" />
+  <Project Path="Chap06-04-app/Chap06-04-app.vcxproj" Id="399e4335-1ec0-4487-9daa-c82dd303c32d" />
+  <Project Path="Chap06-05-app/Chap06-05-app.vcxproj" Id="a06ccefe-e6d2-4a6d-9091-63805a9821bc" />
+  <Project Path="Chap06-quiz/Chap06-quiz.vcxproj" Id="d9e99fec-fc2e-49d5-a31d-96989e6e638c" />
 </Solution>
