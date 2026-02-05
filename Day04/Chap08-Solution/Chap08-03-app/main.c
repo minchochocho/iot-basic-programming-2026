@@ -19,7 +19,7 @@ int main() {
 
 	//printf("입력 후 문자열 : %s\n", str);
 
-	strcpy(str, "grape");
+	strcpy(str, "grape");	// strcpy를 써야함
 	printf("입력 후 문자열 : %s\n", str);
 		
 
