@@ -66,7 +66,6 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
     ![alt text](image-6.png)
 
 2. 새 프로젝트 구성
-
     - 프로젝트 이름, 솔루션 이름을 다르게 지정
     - 위치는 깃허브 저장소 하위에 위치 시킬 것
 
@@ -90,17 +89,14 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
     ![alt text](image-8.png)
 
 8. 프로젝트가 여러개
-
     - 솔루션의 속성 > 시작 프로젝트 구성 > 현재 선택 영역 체크
     ![alt text](image-9.png)
 
 ### C 기본 문법
 
 1. 기본 사용법
-
     - 메인함수 작성법 : [확인](./Day01/Chap02-Solution/Chap02-01-app/main.c)
     - 데이터 출력방법 : [확인](/Day01/Chap02-Solution/Chap02-02-app/main.c)
-
 
     - 기본 사용방법 : 아래확인
         - 2진수 -> 컴퓨터의 데이터가 모두 0,1로만 저장되어 있으므로
@@ -109,7 +105,6 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
         - 10진수 - 현실세계(사람)에서 주로 사용
 
     - 진수별 표현법 : [확인](./Day01/Chap02-Solution/Chap02-03-app/main.c)
-    
         |10진수|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|
         |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
         |8진수|00|01|02|03|04|05|06|07|010|011|012|013|014|015|016|017|
@@ -120,7 +115,6 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 ### C 기본 문법 계속
 
 1. 기본 문법
-
     - 데이터형 : [확인](./Day02/Chap03-Solution/Chap03-01-app/main.c)
     - 실수형 및 변수 : [확인](./Day02/Chap03-Solution/Chap03-02-app/main.c)
     - 데이터 입력 : [확인](./Day02/Chap03-Solution/Chap03-03-app/main.c)
@@ -128,7 +122,6 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
     - 연산자 : [확인](./Day02/Chap04-Solution/Chap04-01-app/main.c)
 
 2. 퀴즈 : [확인](./Day02/Chap04-Solution/Chap04-quiz4/main.c)
-
     - bmi = 몸무게 / (키 / 100) * (키 / 100)
 
 
@@ -137,12 +130,10 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 ### C 기본 문법 계속
 
 1. 제어문 - 선택문/분기문
-
     - if문 : [확인](./Day03/Chap05-Solution/Chap05-01-app/main.c)
     - switch~case문 : [확인](./Day03/Chap05-Solution/Chap05-02-app/main.c)
     
 2. 반복문
-
     - while, do~while문 : [확인](./Day03/Chap06-Solution/Chap06-01-app/main.c)
     - for문 : [확인](./Day03/Chap06-Solution/Chap06-02-app/main.c)
     - 구구단 : [확인](./Day03/Chap06-Solution/Chap06-03-app/main.c)
@@ -150,7 +141,6 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
     - continue, break : [확인](./Day03/Chap06-Solution/Chap06-05-app/main.c)
 
 3. **디버깅 기본**
-
     - 단축키
         - F5 : 디버깅 시작
         - Shift + F5 : 디버깅 종료
@@ -168,8 +158,29 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 
 ### C 기본 문법 계속
 1. 함수 계속
-    - 함수 유형 : [확인]   
+    - 함수 유형 : [확인](./Day03/Chap07-Solution/Chap07-02-app/main.c)   
         - 매개변수가 없는 함수
         - 반환 값이 없는 함수 
         - 매개변수, 반환값이 없는 함수
         - `매개변수, 반환값이 있는 함수`
+    - 재귀호출 함수 : [확인](./Day03/Chap07-Solution/Chap07-03-app/main.c)
+
+2. 배열 : 
+    - 동일 자료형의 묶음 - `arr[10]`
+    - 배열 선언, 초기화 : [확인](./Day04/Chap08-Solution/Chap08-01-app/main.c)
+    - 문자배열(문자열) : [확인](./Day04/Chap08-Solution/Chap08-03-app/main.c)
+    - 대소문자 변환 : [확인](./Day04/Chap08-Solution/Chap08-quiz/main.c)
+        ![alt text](image-10.png)
+
+3. 포인터
+    - 변수 스코프 : [확인](./Day04/Chap09-Solution/Chap09-01-app/main.c)
+    - 변수에 담긴 데이터를 공유하기 위해서 
+    - 프로그램에서 사용하는 `메모리를 절약`하기 위한 목적
+    - 메모리 주소
+        - 주소 연산자 & : [확인](./Day04/Chap09-Solution/Chap09-02-app/main.c)
+        - 간접 참조 연산자(포인터 연산자) * : [확인](./Day04/Chap09-Solution/Chap09-03-app/main.c)
+    - 포인터 이해
+
+## 5일차
+
+### C 기본 문법 계속
