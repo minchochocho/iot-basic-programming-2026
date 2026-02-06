@@ -1,12 +1,12 @@
 # iot-basic-programming-2026
 IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 
-## 1일차
+## 1일차(02.02)
 - Git, github Desktop 설치
 - Visual Studio Code 설치
 - readme 미리보기 : Ctrl + Shift + V
 
-## C언어 학습 순서
+### C언어 학습 순서
 - 기본
     1. 프로그램 기본
     2. 상수와 데이터 출력
@@ -95,8 +95,8 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 ### C 기본 문법
 
 1. 기본 사용법
-    - 메인함수 작성법 : [확인](./Day01/Chap02-Solution/Chap02-01-app/main.c)
-    - 데이터 출력방법 : [확인](/Day01/Chap02-Solution/Chap02-02-app/main.c)
+    - 메인함수 작성법 : [소스](./Day01/Chap02-Solution/Chap02-01-app/main.c)
+    - 데이터 출력방법 : [소스](/Day01/Chap02-Solution/Chap02-02-app/main.c)
 
     - 기본 사용방법 : 아래확인
         - 2진수 -> 컴퓨터의 데이터가 모두 0,1로만 저장되어 있으므로
@@ -104,41 +104,41 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
         - 16진수 -> 255까지의 수를 짧게 표현하고자 사용
         - 10진수 - 현실세계(사람)에서 주로 사용
 
-    - 진수별 표현법 : [확인](./Day01/Chap02-Solution/Chap02-03-app/main.c)
+    - 진수별 표현법 : [소스](./Day01/Chap02-Solution/Chap02-03-app/main.c)
         |10진수|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|
         |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
         |8진수|00|01|02|03|04|05|06|07|010|011|012|013|014|015|016|017|
         |16진수|0x0|0x1|0x2|0x3|0x4|0x5|0x6|0x7|0x8|0x9|0xA|0xB|0xC|0xD|0xE|0xF|
 
-## 2일차
+## 2일차(02.03)
 
 ### C 기본 문법 계속
 
 1. 기본 문법
-    - 데이터형 : [확인](./Day02/Chap03-Solution/Chap03-01-app/main.c)
-    - 실수형 및 변수 : [확인](./Day02/Chap03-Solution/Chap03-02-app/main.c)
-    - 데이터 입력 : [확인](./Day02/Chap03-Solution/Chap03-03-app/main.c)
+    - 데이터형 : [소스](./Day02/Chap03-Solution/Chap03-01-app/main.c)
+    - 실수형 및 변수 : [소스](./Day02/Chap03-Solution/Chap03-02-app/main.c)
+    - 데이터 입력 : [소스](./Day02/Chap03-Solution/Chap03-03-app/main.c)
 
-    - 연산자 : [확인](./Day02/Chap04-Solution/Chap04-01-app/main.c)
+    - 연산자 : [소스](./Day02/Chap04-Solution/Chap04-01-app/main.c)
 
-2. 퀴즈 : [확인](./Day02/Chap04-Solution/Chap04-quiz4/main.c)
+2. 퀴즈 : [소스](./Day02/Chap04-Solution/Chap04-quiz4/main.c)
     - bmi = 몸무게 / (키 / 100) * (키 / 100)
 
 
-## 3일차
+## 3일차(02.04)
 
 ### C 기본 문법 계속
 
 1. 제어문 - 선택문/분기문
-    - if문 : [확인](./Day03/Chap05-Solution/Chap05-01-app/main.c)
-    - switch~case문 : [확인](./Day03/Chap05-Solution/Chap05-02-app/main.c)
+    - if문 : [소스](./Day03/Chap05-Solution/Chap05-01-app/main.c)
+    - switch~case문 : [소스](./Day03/Chap05-Solution/Chap05-02-app/main.c)
     
 2. 반복문
-    - while, do~while문 : [확인](./Day03/Chap06-Solution/Chap06-01-app/main.c)
-    - for문 : [확인](./Day03/Chap06-Solution/Chap06-02-app/main.c)
-    - 구구단 : [확인](./Day03/Chap06-Solution/Chap06-03-app/main.c)
-    - 무한루프 : [확인](./Day03/Chap06-Solution/Chap06-04-app/main.c)
-    - continue, break : [확인](./Day03/Chap06-Solution/Chap06-05-app/main.c)
+    - while, do~while문 : [소스](./Day03/Chap06-Solution/Chap06-01-app/main.c)
+    - for문 : [소스](./Day03/Chap06-Solution/Chap06-02-app/main.c)
+    - 구구단 : [소스](./Day03/Chap06-Solution/Chap06-03-app/main.c)
+    - 무한루프 : [소스](./Day03/Chap06-Solution/Chap06-04-app/main.c)
+    - continue, break : [소스](./Day03/Chap06-Solution/Chap06-05-app/main.c)
 
 3. **디버깅 기본**
     - 단축키
@@ -151,38 +151,73 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 
 4. 함수
 
-    - 함수 기본 : [확인](./Day03/Chap07-Solution/Chap07-01-app/main.c)
+    - 함수 기본 : [소스](./Day03/Chap07-Solution/Chap07-01-app/main.c)
 
 
-## 4일차
+## 4일차(02.05)
 
 ### C 기본 문법 계속
 1. 함수 계속
-    - 함수 유형 : [확인](./Day03/Chap07-Solution/Chap07-02-app/main.c)   
+    - 함수 유형 : [소스](./Day03/Chap07-Solution/Chap07-02-app/main.c)   
         - 매개변수가 없는 함수
         - 반환 값이 없는 함수 
         - 매개변수, 반환값이 없는 함수
         - `매개변수, 반환값이 있는 함수`
-    - 재귀호출 함수 : [확인](./Day03/Chap07-Solution/Chap07-03-app/main.c)
+    - 재귀호출 함수 : [소스](./Day03/Chap07-Solution/Chap07-03-app/main.c)
 
 2. 배열 : 
     - 동일 자료형의 묶음 - `arr[10]`
-    - 배열 선언, 초기화 : [확인](./Day04/Chap08-Solution/Chap08-01-app/main.c)
-    - 문자배열(문자열) : [확인](./Day04/Chap08-Solution/Chap08-03-app/main.c)
-    - 대소문자 변환 : [확인](./Day04/Chap08-Solution/Chap08-quiz/main.c)
+    - 배열 선언, 초기화 : [소스](./Day04/Chap08-Solution/Chap08-01-app/main.c)
+    - 문자배열(문자열) : [소스](./Day04/Chap08-Solution/Chap08-03-app/main.c)
+    - 대소문자 변환 : [소스](./Day04/Chap08-Solution/Chap08-quiz/main.c)
         ![alt text](image-10.png)
 
 3. 포인터
-    - 변수 스코프 : [확인](./Day04/Chap09-Solution/Chap09-01-app/main.c)
+    - 변수 스코프 : [소스](./Day04/Chap09-Solution/Chap09-01-app/main.c)
     - 변수에 담긴 데이터를 공유하기 위해서 
     - 프로그램에서 사용하는 `메모리를 절약`하기 위한 목적
     - 메모리 주소
-        - 주소 연산자 & : [확인](./Day04/Chap09-Solution/Chap09-02-app/main.c)
-        - 간접 참조 연산자(포인터 연산자) * : [확인](./Day04/Chap09-Solution/Chap09-03-app/main.c)
+        - 주소 연산자 & : [소스](./Day04/Chap09-Solution/Chap09-02-app/main.c)
+        - 간접 참조 연산자(포인터 연산자) * : [소스](./Day04/Chap09-Solution/Chap09-03-app/main.c)
         
-## 5일차
+## 5일차(02.06)
 
-### C 기본 문법 계속
+### C 기본 문법 문법
 
 1. 포인터
-    - 포인터 이해
+    ![alt text](image-11.png)
+    - 포인터 이해 : [소스](./Day05/Chap09-Solution/Chap09-04-app/main.c)
+        - 변수의 주소(메모리상)를 담고, 간접참조연산자(*)로 그 변수의 값을 사용하기 위한 것
+        - 변수의 주소를 변경하여, `여러 변수 사용 가능`
+        - 변수의 주소는 바뀌지 않는 값. 변수의 주소는 바꿀 수 없다.
+        - 포인터에 주소를 저장할때는 자료형이 동일해야한다. int -> int*
+
+    - 포인터 크기 : [소스](./Day05/Chap09-Solution/Chap09-05-app/main.c)
+        - 주소의 크기와 동일 - 8byte(64비트체계 이므로)
+
+    - 포인터 사용 이유 : [소스](./Day05/Chap09-Solution/Chap09-07-app/main.c)
+        - 용량이 제한된 [임베디드 시스템](https://ko.wikipedia.org/wiki/%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)에서 데이터를 공유하는 목적
+        - 함부로 변수를 마구 찍어서 만들수 없음(용량제한)!
+        - 주소를 공유해서 함수 어디서나 변수의 값을 변경할 수 있음
+        - 함수간에 효과적으로 데이터를 공유하고, 용량(메모리)을 절약!
+
+2. 배열과 포인터 : [소스](./Day05/Chap10-Solution/Chap10-01-app/main.c)
+    - 배열과 포인터는 매우 흡사해서 유사하게 사용가능
+    - scanf() 배열 str[80] 선언 후, &str로 사용
+    - 직접적인 연관이 있음
+    - 실무에서 데이터를 공유하면 보통 배열도 많이 사용됨
+    - 배열을 그대로 매개변수로 전달하면 메모리를 많이 사용하게 됨
+    - int arr[100] -> main에서 400bytes, 함수에서 400bytes의 메모리 공간을 확보('메모리 부족사태')
+    - 배열의 주소를 함수에 전달 : [소스](./Day05/Chap10-Solution/Chap10-03-app/main.c)
+
+3. 문자 : [소스](./Day05/Chap11-Solution/Chap11-01-app/main.c)
+    - getchar() 입력버퍼 한글자 지우기 : [소스](./Day05/Chap11-Solution/Chap11-02-app/main.c)
+
+4. 문자열 기본 : [소스](./Day05/Chap12-Solution/Chap12-01-app/main.c)
+    - 문자열 상수와 문자 포인터 변수 사용법
+
+## 6일차(02.09)
+
+### C 중급 문법 계속
+
+4. 문자열과 포인터
