@@ -266,9 +266,9 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 
     - [단일포인터](./Day05/Chap10-Solution/Chap10-03-app/main.c) vs [이중포인터배열](./Day06/Chap15-Solution/Chap15-02-app/main.c)
 
-    ## 7일차
+## 7일차
 
-    ### C 중급 문법
+### C 중급 문법
 
 1. 함수와 void 포인터 : [소스](./Day07/Chap15-Solution/Chap15-04-app/main.c)
     - 함수 포인터 - 함수도 메모리 상에 주소(&)를 가지고 있음
@@ -323,11 +323,21 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 ## 8일차
 ### C 중급 문법
 
-1. 사용자 정의 자료형 - 구조체
+1. 사용자 정의 자료형 - 구조체 : [소스](./Day08/Chap17-Solution/Chap-17-02-app/main.c)
+    - 구조체 사용 : [소스](./Day08/Chap17-Solution/Chap17-03-app/main.c)
+    - 구조체 내 구조체 : [소스](./Day08/Chap17-Solution/Chap17-04-app/main.c)
+    - 구조체 포인터 : [소스](./Day08/Chap17-Solution/Chap17-05-app/main.c)
 
-2. 사용자 정의 자료형 - 공용체, 열거형
+2. 사용자 정의 자료형 - 공용체, 열거형 : [소스](./Day08/Chap17-Solution/Chap17-06-app/main.c)
 
 3. 파일 입출력
+    - 파일 종류 : 텍스트 파일, 바이너리 파일
+    - 바이너리 파일 : 데이터파일, 내부적으로 0과 1로 저장한 파일. data, exe, mp3, mp4 등등
+    ![alt text](image-24.png)
+    - 텍스트 파일 : 사람이 읽을 수 있는 문자로 된 파일 txt, log, cmd, bat, docx, httpx, pptx ...
+    ![alt text](image-25.png)
+
+    - 파일 오픈 : [소스](./Day08/Chap18-Solution/Chap18-01-app/main.c)
 
 4. 전처리, 분할 컴파일
 
