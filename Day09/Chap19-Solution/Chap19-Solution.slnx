@@ -3,7 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="../../../../../../../../SourceBank/iot-basic-programming-2026/Day09/Chap19-Solution/Chap19-01-app/Chap19-01-app.vcxproj" Id="20d7d799-765f-480d-9225-2fd405e07577" />
-  <Project Path="../../../../../../../../SourceBank/iot-basic-programming-2026/Day09/Chap19-Solution/Chap19-02-app/Chap19-02-app.vcxproj" Id="d674786e-3578-4263-bfc2-fe2b8202a960" />
-  <Project Path="../../../../../../../../SourceBank/iot-basic-programming-2026/Day09/Chap19-Solution/Chap19-03-app/Chap19-03-app.vcxproj" Id="cd5b2513-33c2-4da2-a7a9-a4770f6bb6a8" />
+  <Project Path="Chap19-01-app/Chap19-01-app.vcxproj" Id="20d7d799-765f-480d-9225-2fd405e07577" />
+  <Project Path="Chap19-02-app/Chap19-02-app.vcxproj" Id="d674786e-3578-4263-bfc2-fe2b8202a960" />
+  <Project Path="Chap19-03-app/Chap19-03-app.vcxproj" Id="cd5b2513-33c2-4da2-a7a9-a4770f6bb6a8" />
+  <Project Path="Chap19-04-app/Chap19-04-app.vcxproj" Id="ec62894b-0397-4e97-859d-76e5810617fe" />
 </Solution>

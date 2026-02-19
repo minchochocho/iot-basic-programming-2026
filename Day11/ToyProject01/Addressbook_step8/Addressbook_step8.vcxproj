@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ec62894b-0397-4e97-859d-76e5810617fe}</ProjectGuid>
-    <RootNamespace>Chap1904app</RootNamespace>
+    <ProjectGuid>{8BA8E523-CFD2-42EE-9F29-F40A36F27BB8}</ProjectGuid>
+    <RootNamespace>Addressbookstep4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addressbook.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="line.h" />
-    <ClInclude Include="point.h" />
+    <ClInclude Include="addressbook.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
